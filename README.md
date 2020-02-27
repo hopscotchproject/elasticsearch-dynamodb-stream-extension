@@ -1,2 +1,5 @@
-# dynamodb-stream-to-es
+# elasticsearch-dynamodb-stream-extension
 Library facilitate sync-ing dynamodb stream into elasticsearch
+
+
+
