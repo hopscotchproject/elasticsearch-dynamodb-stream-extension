@@ -4,7 +4,9 @@
   "description": "Library facilitating syncing dynamodb stream into elasticsearch",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "types": "dist/index.d.ts",
   "scripts": {
     "ts-node": "ts-node -O '{\"module\": \"commonjs\"}'",
@@ -24,6 +26,7 @@
   },
   "homepage": "https://github.com/hopscotchproject/elasticsearch-dynamodb-stream-extension#readme",
   "dependencies": {
+    "@elastic/elasticsearch": "^7.6.0",
     "aws-sdk": "^2.623.0"
   },
   "devDependencies": {
