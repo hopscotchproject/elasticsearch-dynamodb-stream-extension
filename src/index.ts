@@ -1,1 +1,1 @@
-export const dummy: string = 'dummy value';
+export * from './extension'

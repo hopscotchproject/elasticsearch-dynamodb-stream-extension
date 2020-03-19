@@ -27,7 +27,8 @@
   "homepage": "https://github.com/hopscotchproject/elasticsearch-dynamodb-stream-extension#readme",
   "dependencies": {
     "@elastic/elasticsearch": "^7.6.0",
-    "aws-sdk": "^2.623.0"
+    "aws-sdk": "^2.623.0",
+    "object-hash": "^2.0.3"
   },
   "devDependencies": {
     "@types/chai": "^4.2.9",
