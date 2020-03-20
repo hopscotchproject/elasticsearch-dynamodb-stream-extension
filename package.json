@@ -1,6 +1,6 @@
 {
   "name": "elasticsearch-dynamodb-stream-extension",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Library facilitating syncing dynamodb stream into elasticsearch",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

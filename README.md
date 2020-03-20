@@ -19,7 +19,7 @@ const extendedClient = extendClient(client, {
 
 const fakeRecord = {...}
 
-extendedClient.handleRecord(fakeRecord)
+extendedClient.ddbStream.handleRecord(fakeRecord)
   .then(console.log)
   .catch(console.error)
 
