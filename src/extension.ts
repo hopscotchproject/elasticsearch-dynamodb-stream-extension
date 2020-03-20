@@ -8,7 +8,7 @@ const hash = require('object-hash')
  */
 export interface ExtensionConfiguration {
   /**
-   * genereate id
+   * genereate id, by default it hashes unmarshalled 'record.dynamodb.Keys'
    */
   keyGen?: (record: Record) => string,
 
