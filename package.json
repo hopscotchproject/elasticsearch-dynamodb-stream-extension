@@ -1,6 +1,6 @@
 {
   "name": "elasticsearch-dynamodb-stream-extension",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Library facilitating syncing dynamodb stream into elasticsearch",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -15,6 +15,7 @@
     "test:integ": "npm run build && cross-env TS_NODE_COMPILER_OPTIONS='{ \"module\": \"commonjs\" }' mocha -r ts-node/register test/**/*.integ.ts && npx mocha test/**/*.integ.js",
     "test": "cross-env TS_NODE_COMPILER_OPTIONS='{ \"module\": \"commonjs\" }' mocha -r ts-node/register test/**/*.spec.ts"
   },
+  "keywords": ["dynamodb", "elasticsearch", "dynamodb stream", "elastic search", "elastic search extension"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hopscotchproject/elasticsearch-dynamodb-stream-extension.git"
