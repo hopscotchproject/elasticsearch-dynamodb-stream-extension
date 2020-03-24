@@ -15,7 +15,13 @@
     "test:integ": "npm run build && cross-env TS_NODE_COMPILER_OPTIONS='{ \"module\": \"commonjs\" }' mocha -r ts-node/register test/**/*.integ.ts && npx mocha test/**/*.integ.js",
     "test": "cross-env TS_NODE_COMPILER_OPTIONS='{ \"module\": \"commonjs\" }' mocha -r ts-node/register test/**/*.spec.ts"
   },
-  "keywords": ["dynamodb", "elasticsearch", "dynamodb stream", "elastic search", "elastic search extension"],
+  "keywords": [
+    "dynamodb",
+    "elasticsearch",
+    "dynamodb stream",
+    "elastic search",
+    "elastic search extension"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hopscotchproject/elasticsearch-dynamodb-stream-extension.git"
